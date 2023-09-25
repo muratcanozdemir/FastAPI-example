@@ -1,0 +1,7 @@
+fastapi[all]
+celery[redis]
+pydantic
+httpx
+kombu
+uvicorn
+gunicorn

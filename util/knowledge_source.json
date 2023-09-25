@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is the currency of Japan?",
+        "answer": "Yen"
+    },
+    {
+        "question": "What is the largest planet in the Solar System?",
+        "answer": "Jupiter"
+    },
+    {
+        "question": "Who is the author of 'Pride and Prejudice'?",
+        "answer": "Jane Austen"
+    },
+    {
+        "question": "What is the freezing point of water?",
+        "answer": "0 degrees Celsius"
+    },
+    {
+        "question": "Who is known for the theory of relativity?",
+        "answer": "Albert Einstein"
+    },
+    {
+        "question": "What is the distance between the Earth and the Moon?",
+        "answer": "Approximately 384,400 kilometers"
+    },
+    {
+        "question": "Who is the current President of the United States?",
+        "answer": "As of my last update in January 2022, Joe Biden is the President."
+    },
+    {
+        "question": "How many continents are there on Earth?",
+        "answer": "Seven"
+    },
+    {
+        "question": "What is the speed of light?",
+        "answer": "Approximately 299,792 kilometers per second in vacuum"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "answer": "Au"
+    },
+    {
+        "question": "Who won the Nobel Prize for Literature in 1954?",
+        "answer": "Ernest Hemingway"
+    },
+    {
+        "question": "What is the smallest state in the United States?",
+        "answer": "Rhode Island"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "answer": "The Nile"
+    },
+    {
+        "question": "Who composed the Symphony No. 5?",
+        "answer": "Ludwig van Beethoven"
+    },
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "What is the square root of 16?",
+      "answer": "4"
+    },
+    {
+      "question": "Who is known as the Father of Computer Science?",
+      "answer": "Alan Turing"
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "answer": "100 degrees Celsius"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the largest mammal?",
+      "answer": "Blue whale"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the smallest prime number?",
+      "answer": "2"
+    },
+    {
+      "question": "Who is the author of 'To Kill a Mockingbird'?",
+      "answer": "Harper Lee"
+    }
+  ]
+  

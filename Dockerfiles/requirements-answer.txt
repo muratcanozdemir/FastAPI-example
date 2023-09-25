@@ -1,0 +1,6 @@
+fastapi[all]
+elasticsearch==7.13.4
+httpx
+requests
+uvicorn
+gunicorn

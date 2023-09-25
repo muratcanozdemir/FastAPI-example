@@ -1,0 +1,14 @@
+# Initial stage: Build Environment
+FROM python:3.9-slim AS builder
+
+# Set the working directory
+WORKDIR /app
+
+# Copy your source code and other necessary files
+COPY ./src /app
+COPY ./Dockerfiles/requirements-conversation.txt /app/requirements.txt
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run your FastAPI application
+CMD ["python", "-m", "uvicorn", "conversation_service.app:app", "--host", "0.0.0.0", "--port", "8002"]
