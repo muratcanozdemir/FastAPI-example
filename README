@@ -1,0 +1,18 @@
+This repo will create three API endpoints to implement a question-answering system:
+
+1) Provide an API to ask questions and return answers
+2) Find the best matching answers from a knowledge base
+3) Store conversation history and expose API to fetch last conversations
+
+docker-compose.yml will deploy all of the images and the required third party software to a server
+
+### Requirements
+API Service: Implement a FastAPI service that exposes a single endpoint for asking questions. The endpoint should accept a text input representing the user's question and return a JSON response containing the best matching answer from the knowledge base.
+
+Answer Matching Service: Implement a FastAPI service that takes a question as input and returns the best matching answer from a predefined knowledge base. The knowledge base can be a simple list of question-answer pairs. 
+
+Conversation History Service: Implement a FastAPI service to store the conversation history and expose an API to fetch the last conversations
+
+### The solution
+- Uses Elasticsearch for approximate matching, also provides an endpoint to populate the data
+- Uses Redis to cache the messages, Celery to create a task that stores the conversations, RabbitMQ to put these tasks in a queue
